@@ -17,7 +17,6 @@ sentence csen[MAXSIZE];	//存放读入的抄文
 int num[5000][5000];	//记录状态值，用于识别字符是否相同
 int olen = 0;			//原文本长度
 int clen = 0;			//抄文本长度
-//int sum = 0;
 double Num = 0;			//查重数
 void LCS(int len);
 
@@ -30,7 +29,7 @@ void original(string file) {	//原文本输入
 	}
 	else {
 		string s;
-		while (getline(ifs,s)) {
+		while (getline(ifs, s)) {
 			sen[olen].word = s;
 			sen[olen].len = s.length();
 			olen++;
@@ -87,14 +86,21 @@ void LCS(int len) {			//用动态规划算法求解
 	}
 }
 
-int main() {
+//int main(int argc, char * argv[]) {
+int main(){
 	original("E://Visual Studio//text//orig.txt");
-	copy("E://Visual Studio//text//orig_0.8_dis_10.txt");
+	copy("E://Visual Studio//text//orig_0.8_add.txt");
+	//cout << "original file:" << argv[1] << endl;
+	//cout << "copy file:" << argv[2] << endl;
+	//cout << "output file:" << argv[3] << endl;
+	//original(argv[1]);
+	//copy(argv[2]);
 	memset(num, 0, olen);
-	//double rate = Num / sum;
 	cout << "copy rate:" << 2 * Num / (olen - 1) << endl;	//空行不算
-	cout << Num << " " << olen << endl;
-
+	//ofstream ofs;
+	//ofs.open(argv[3], ios::app);
+	//ofs << "copy rate:" << 2 * Num / (olen - 1) << endl;
+	//ofs.close();
 	system("pause");
 	return 0;
 }
