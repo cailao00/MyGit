@@ -1,0 +1,10 @@
+copy rate:100%
+copy rate:67.0732%
+copy rate:70.7317%
+copy rate:68.2927%
+copy rate:15.8537%
+copy rate:63.6364%
+copy rate:72.7273%
+copy rate:81.8182%
+copy rate:90.9091%
+copy rate:72.7273%

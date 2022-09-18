@@ -1,0 +1,26 @@
+今天是星期天，天气晴，今天晚上我要去看电影。
+
+从命令行参数给出：论文原文的文件相对路径。
+
+iiiiiiiiiiiiiiiiiiiiiiiiii：iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii。
+
+从命令行参数给出：输出结果的文件相对路径。
+
+Python: PYTHON MAIN.PY
+
+C++: MAIN.EXE 
+
+Java
+
+程序内存损失严重
+
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+占用的内存大于2048MB
+
+尝试读写别的文件
+
+尝试妨碍检测==比如: SYSTEM['SHUTDOWN']
+
+
+
